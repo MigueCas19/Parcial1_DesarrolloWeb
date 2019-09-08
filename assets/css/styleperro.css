@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+h1,h2,h3{
+    color: mediumblue;
+    
+}
+p{
+    color: azure;
+    
+}
+
+/*a{
+    color: black;
+}
+*/
+body{
+    margin: 0;
+}
+
+nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 0px 40px 0px 40px;
+    margin: 0px 0px 0px 0px;
+    
+}
+
+nav{
+    position: fixed; /*para dejar el texto quieto mientras muevo el scroll*/
+    text-align: center;
+    padding: 0;
+    margin: 0px 0px 0px 0px;
+    overflow: hidden;
+    background-color: rgb(255,255,255,0.8);
+    top: 0;
+    width: 100%;
+    color: rgb(red, green, blue)
+    
+}
+
+html{
+    /* background-image: url(www/images/textu2.jpg); */
+    background-attachment: fixed;
+    background-size: 100%;
+    background-image: url(../images/pink.jpg);
+    
+}
+
+#navbar a{
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Arvo', serif;
+    font-size: 35px;
+    
+    border-right: 4px solid rgb(0, 44, 95);
+}
+
+#navbar a:hover {
+    color: gray;
+}
+
+header{
+    margin-top: 100px; 
+}
+
+/*el punto es a las clases*/
+.intro{
+    height: 600px;
+    text-align: center;
+}
+
+.foto{
+    align-self: center;
+    /* border-radius: 70%; */
+    background: url(../images/dog.svg) no-repeat;
+    background-size:cover;
+    
+    box-shadow: 0px 0px 10px 0px black;
+    border-radius: 50%;
+    border-color: azure;
+    height: 350px;
+    width: 350px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 120px 30px 0px 30px;
+    background-color: black;
+    
+}
+/* .foto:hover{
+    background-image: url(www/images/foto3.jpg);
+    background-size: cover;
+} */
+
+.nombre{
+    margin: 120px 30px 0px 30px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Arvo', serif;
+
+}
+
+.nombre > h1{
+    
+    border-bottom: 4px solid rgb(0, 44, 95);
+    color: #8b5210;
+    text-align: center;
+    display:inline-block;
+    min-height: 70px;
+    margin: 55px auto 0;
+    padding: 0px 10px;
+    z-index:2;
+    font-size: 3em;
+    margin: 0.67em 0;
+    height: 100px;
+    width: 900px;
+
+}
+
+
+
+.contacto{
+    font-family: 'Arvo', serif;
+    font-size: 25px;
+    color: black;
+    padding: 20px;
+    display: grid;
+    text-align: center;
+    
+    grid-template-rows: repeat(1,100px);
+    grid-template-columns: repeat(3, 2fr);
+}
+.telefono > p:hover{
+    color: darksalmon;
+
+}
+.telefono >h2{
+    border-bottom: 4px solid rgb(0, 44, 95);
+    border-right: 4px solid rgb(0, 44, 95);
+}
+.correo >h2{
+    border-bottom: 4px solid rgb(0, 44, 95);
+    border-right: 4px solid rgb(0, 44, 95);
+}
+.direccion >h2{
+    border-bottom: 4px solid rgb(0, 44, 95);
+}
+.correo > p:hover{
+    color: darksalmon;
+
+}
+
+.descripcion{
+    font-family: 'Arvo', serif;
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    
+}
+.oferta{
+    color: red;
+}
+.ofertas{
+    font-size: 50px;
+    color: aliceblue;
+    background-color: red;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.contact{
+    font-size: 50px;
+    color: aliceblue;
+    background-color: darkgoldenrod;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: 'Arvo', serif;
+    text-align: center;
+}
+
+.grid-2{
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+    display: grid;
+    text-align: center;
+    
+    grid-template-rows: repeat(4,300px);
+    grid-template-columns: repeat(5, 2fr);
+    /* grid-template-rows: 200px 200fr 200px; */
+    /* grid-row-gap: 20px; */
+    grid-column-gap: 50px ;
+    grid-row-gap: 0ch;
+}
+.btn{
+    background: url(../images/24px.svg) no-repeat center;
+    background-size: 30px;
+    
+    text-align: center;
+
+
+    font-size: 24px;
+    border-radius: 80%;
+    padding: 15px 32px;
+
+}
+.btn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.item1{
+|   background: url(../images/2.jpg) no-repeat center;   
+background-size: cover;
+/* background-position-y: -32px;
+background-position-x: 26px; */
+box-shadow: 0px 0px 10px 0px black; 
+}
+.item2{
+    background: url(../images/2.jpg) no-repeat center;   
+    background-size: cover;
+    /* background-position-y: -32px;
+    background-position-x: 26px; */
+    box-shadow: 0px 0px 10px 0px black; 
+}
+.item3{
+    background: url(../images/2.jpg) no-repeat center;   
+    background-size: cover;
+    /* background-position-y: -32px;
+    background-position-x: 26px; */
+    box-shadow: 0px 0px 10px 0px black; 
+}
+.item4{
+    background: url(../images/2.jpg) no-repeat center;   
+    background-size: cover;
+    /* background-position-y: -32px;
+    background-position-x: 26px; */
+    box-shadow: 0px 0px 10px 0px black; 
+}
+.item5{
+    background: url(../images/2.jpg) no-repeat center;   
+    background-size: cover;
+    /* background-position-y: -32px;
+    background-position-x: 26px; */
+    box-shadow: 0px 0px 10px 0px black; 
+}
+.item11{
+    background: url(../images/2.jpg) no-repeat center;   
+    background-size: cover;
+    /* background-position-y: -32px;
+    background-position-x: 26px; */
+    box-shadow: 0px 0px 10px 0px black; 
+}
+.item12{
+    background: url(../images/2.jpg) no-repeat center;   
+    background-size: cover;
+    /* background-position-y: -32px;
+    background-position-x: 26px; */
+    box-shadow: 0px 0px 10px 0px black; 
+}
+.item13{
+    background: url(../images/2.jpg) no-repeat center;   
+    background-size: cover;
+    /* background-position-y: -32px;
+    background-position-x: 26px; */
+    box-shadow: 0px 0px 10px 0px black; 
+}
+.item14{
+    background: url(../images/2.jpg) no-repeat center;   
+    background-size: cover;
+    /* background-position-y: -32px;
+    background-position-x: 26px; */
+    box-shadow: 0px 0px 10px 0px black; 
+}
+.item15{
+    background: url(../images/2.jpg) no-repeat center;   
+    background-size: cover;
+    /* background-position-y: -32px;
+    background-position-x: 26px; */
+    box-shadow: 0px 0px 10px 0px black; 
+}

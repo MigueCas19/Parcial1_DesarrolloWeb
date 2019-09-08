@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+h1,h2,h3{
+    color: mediumblue;
+    
+}
+p{
+    color: azure;
+    
+}
+
+/*a{
+    color: black;
+}
+*/
+body{
+    margin: 0;
+}
+
+nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 0px 40px 0px 40px;
+    margin: 0px 0px 0px 0px;
+    
+}
+
+nav{
+    position: fixed; /*para dejar el texto quieto mientras muevo el scroll*/
+    text-align: center;
+    padding: 0;
+    margin: 0px 0px 0px 0px;
+    overflow: hidden;
+    background-color: rgb(255,255,255,0.8);
+    top: 0;
+    width: 100%;
+    color: rgb(red, green, blue)
+    
+}
+
+html{
+    /* background-image: url(www/images/textu2.jpg); */
+    background-attachment: fixed;
+    background-size: 100%;
+    background-image: url(../images/blue2.jpg);
+    
+}
+
+#navbar a{
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Arvo', serif;
+    font-size: 35px;
+    
+    border-right: 4px solid rgb(0, 44, 95);
+}
+
+#navbar a:hover {
+    color: gray;
+}
+
+header{
+    margin-top: 100px; 
+}
+
+/*el punto es a las clases*/
+.intro{
+    height: 600px;
+    text-align: center;
+}
+
+.foto{
+    align-self: center;
+    /* border-radius: 70%; */
+    background-image: url(../images/cat.svg);
+    background-size:cover;
+    background-position-y: 1px;
+    background-position-x: -2px;
+    box-shadow: 0px 0px 10px 0px black;
+    border-bottom-left-radius: 50%;
+    border-color: azure;
+    height: 350px;
+    width: 350px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 120px 30px 0px 30px;
+    background-color: black;
+    
+}
+/* .foto:hover{
+    background-image: url(www/images/foto3.jpg);
+    background-size: cover;
+} */
+
+.nombre{
+    margin: 120px 30px 0px 30px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Arvo', serif;
+
+}
+
+.nombre > h1{
+    
+    border-right: 4px solid rgb(0, 44, 95);
+    border-left: 4px solid rgb(0, 44, 95);
+    
+    color: #00374f;
+    display:inline-block;
+    min-height: 70px;
+    margin: 55px auto 0;
+    padding: 0px 10px;
+    z-index:2;
+    font-size: 3em;
+    margin: 0.67em 0;
+
+}
+
+
+
+.contacto{
+    font-family: 'Arvo', serif;
+    font-size: 25px;
+    color: black;
+    padding: 20px;
+    display: grid;
+    text-align: center;
+    
+    grid-template-rows: repeat(1,100px);
+    grid-template-columns: repeat(3, 2fr);
+}
+.telefono > p:hover{
+    color: darksalmon;
+
+}
+.telefono >h2{
+    border-bottom: 4px solid rgb(0, 44, 95);
+    border-right: 4px solid rgb(0, 44, 95);
+}
+.correo >h2{
+    border-bottom: 4px solid rgb(0, 44, 95);
+    border-right: 4px solid rgb(0, 44, 95);
+}
+.direccion >h2{
+    border-bottom: 4px solid rgb(0, 44, 95);
+}
+.correo > p:hover{
+    color: darksalmon;
+
+}
+
+.descripcion{
+    font-family: 'Arvo', serif;
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    
+}
+.oferta{
+    color: red;
+}
+.ofertas{
+    font-size: 50px;
+    color: aliceblue;
+    background-color: red;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.contact{
+    font-size: 50px;
+    color: aliceblue;
+    background-color: darkgoldenrod;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: 'Arvo', serif;
+    text-align: center;
+}
+
+.grid-1{
+    font-size: 100px;
+    color: black;
+    padding: 20px;
+    display: grid;
+    text-align: center;
+    
+    grid-template-rows: repeat(2,300px);
+    grid-template-columns: repeat(4, 2fr);
+    /* grid-template-rows: 200px 200fr 200px; */
+    /* grid-row-gap: 20px; */
+    grid-column-gap: 50px ;
+    grid-row-gap: 0ch;
+}
+
+.item1{
+    background: url(../images/1.jpg) no-repeat center;
+    background-size: cover;
+    /* background-position-y: -50px;
+    background-position-x: 26px; */
+    box-shadow: 0px 0px 10px 0px black;
+   
+
+
+}
+.item2{
+    background: url(../images/2.jpg) no-repeat center;   
+    background-size: cover;
+    /* background-position-y: -32px;
+    background-position-x: 26px; */
+    box-shadow: 0px 0px 10px 0px black; 
+}
+.item3{
+    background: url(../images/3.jpg) no-repeat center;
+    background-size: cover;
+    /* background-position-y: -20%;
+    background-position-x: 12%; */
+    box-shadow: 0px 0px 10px 0px black; 
+}
+.item4{
+    background: url(../images/4.jpg) no-repeat center;
+    background-size: cover;
+    /* background-position-y: -32px;
+    background-position-x: 26px; */
+    box-shadow: 0px 0px 10px 0px black; 
+}
+
+.item5{
+    font-size: 10px;
+    font-family: 'Arvo', serif;
+
+}
+.item6{
+    font-size: 10px;
+    font-family: 'Arvo', serif;
+
+
+}
+.item7{
+
+    font-size: 10px;
+    font-family: 'Arvo', serif;
+}
+.item8{
+    font-size: 10px;
+    font-family: 'Arvo', serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body >hola{
+    position: relative;
+}
+body> hola:before{
+   
+
+    hola1: "";
+    background-attachment: fixed; 
+    background-size: 5%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url(../images/paws.svg);
+    opacity: 0.5;
+    position: absolute;
+    z-index: 1;
+}
+
+body> hola1{
+    position: relative;
+    z-index: 2;
+} */
+/*el numeral está asociado a los ids*/
