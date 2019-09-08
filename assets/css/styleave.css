@@ -4,7 +4,7 @@ h1,h2,h3{
     
 }
 p{
-    color: rgb(207, 49, 28);
+    color: pink;
     /* background-color: white; */
     border-bottom-right-radius: 50%;
     font-family: 'Arvo', serif;
@@ -46,7 +46,7 @@ html{
     /* background-image: url(www/images/textu2.jpg); */
     background-attachment: fixed;
     background-size: 100%;
-    background-image: url(../images/pink.jpg);
+    background-image: url(../images/madera.jpg);
     
 }
 
@@ -80,7 +80,7 @@ header{
 .foto{
     align-self: center;
     /* border-radius: 70%; */
-    background: url(../images/dog.svg) no-repeat;
+    background: url(../images/chicken.svg) no-repeat;
     background-size:cover;
     
     box-shadow: 0px 0px 10px 0px black;
@@ -110,7 +110,7 @@ header{
 .nombre > h1{
     
     border-bottom: 4px solid rgb(0, 44, 95);
-    color: #8b5210;
+    color: white;
     text-align: center;
     display:inline-block;
     min-height: 70px;
@@ -121,6 +121,7 @@ header{
     margin: 0.67em 0;
     height: 100px;
     width: 900px;
+    
 
 }
 
@@ -203,7 +204,7 @@ header{
     background-size: 30px;
     
     text-align: center;
-
+    background-color: white;
 
     font-size: 24px;
     border-radius: 80%;
@@ -217,7 +218,7 @@ header{
 }
 .item1{
     position: relative;
-    background: url(../images/p1.jpg) no-repeat center;   
+    background: url(../images/a1.jpg) no-repeat center;   
     background-size: cover;
     /* background-position-y: -32px;
     background-position-x: 26px; */
@@ -225,7 +226,7 @@ header{
 
 }
 .item2{
-    background: url(../images/p2.jpg) no-repeat center;   
+    background: url(../images/a2.jpg) no-repeat center;   
     background-size: cover;
     /* background-position-y: -32px;
     background-position-x: 26px; */
@@ -233,7 +234,7 @@ header{
     position: relative;
 }
 .item3{
-    background: url(../images/p3.jpg) no-repeat center;   
+    background: url(../images/a3.jpg) no-repeat center;   
     background-size: cover;
     /* background-position-y: -32px;
     background-position-x: 26px; */
@@ -241,7 +242,7 @@ header{
     position: relative;
 }
 .item4{
-    background: url(../images/p4.jpg) no-repeat center;   
+    background: url(../images/a4.jpg) no-repeat center;   
     background-size: 100%;
     /* background-position-y: -32px;
     background-position-x: 26px; */
@@ -249,7 +250,7 @@ header{
     position: relative;
 }
 .item5{
-    background: url(../images/p5.jpg) no-repeat center;   
+    background: url(../images/a5.jpg) no-repeat center;   
     background-size: cover;
     /* background-position-y: -32px;
     background-position-x: 26px; */
@@ -257,7 +258,7 @@ header{
     position: relative;
 }
 .item11{
-    background: url(../images/p6.jpg) no-repeat center;   
+    background: url(../images/a6.jpg) no-repeat center;   
     background-size: cover;
     /* background-position-y: -32px;
     background-position-x: 26px; */
@@ -265,7 +266,7 @@ header{
     position: relative;
 }
 .item12{
-    background: url(../images/p7.jpg) no-repeat center;   
+    background: url(../images/a7.jpg) no-repeat center;   
     background-size: cover;
     /* background-position-y: -32px;
     background-position-x: 26px; */
@@ -273,7 +274,7 @@ header{
     position: relative;
 }
 .item13{
-    background: url(../images/p8.jpg) no-repeat center;   
+    background: url(../images/a8.jpg) no-repeat center;   
     background-size: cover;
     /* background-position-y: -32px;
     background-position-x: 26px; */
@@ -281,7 +282,7 @@ header{
     position: relative;
 }
 .item14{
-    background: url(../images/p9.jpg) no-repeat center;   
+    background: url(../images/a9.jpg) no-repeat center;   
     background-size: cover;
     /* background-position-y: -32px;
     background-position-x: 26px; */
@@ -289,7 +290,7 @@ header{
     position: relative;
 }
 .item15{
-    background: url(../images/p10.jpg) no-repeat center;   
+    background: url(../images/a10.jpg) no-repeat center;   
     background-size: cover;
     /* background-position-y: -32px;
     background-position-x: 26px; */
@@ -300,16 +301,21 @@ header{
 
 
 
-.consejos{
+.consejos {
     font-family: 'Arvo', serif;
     text-align: center;
     font-size: 80px;
-    border: steelblue;
+    border: white;
+    color: whitesmoke;
     box-shadow: 0px 0px 10px 0px black; 
     margin: 0;
     padding: 0;
 }
 
+.consejos>a{
+    color: whitesmoke;
+
+}
 
 /* Tooltip descripcion */
 
@@ -712,7 +718,7 @@ opacity: 1;
 visibility: visible;
 opacity: 1;
 }
-
+  
 .btn:hover .btnhover {
     visibility: visible;
     opacity: 1;
